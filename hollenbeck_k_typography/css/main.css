@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+
+#mainNav
+{	height: 60px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background: rgb(99,171,226);
+	background: -moz-linear-gradient(top, rgba(99,171,226,1) 0%, rgba(15,135,226,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(99,171,226,1)), color-stop(100%,rgba(15,135,226,1)));
+	background: -webkit-linear-gradient(top, rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+	background: -o-linear-gradient(top, rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+	background: -ms-linear-gradient(top, rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+	background: linear-gradient(to bottom, rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', endColorstr='#0f87e2',GradientType=0 );
+}
+
+
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+#mainNav ul li a
+{
+	display: block;
+	text-decoration: none;
+	margin-left: 330px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all .5s ease;
+}
+
+#mainNav ul li a:hover
+{
+	background-color: #73B2E2;
+	border-radius: 10px;
+	color: #333;
+}
+
+
+#mainHeader div img
+{
+	width: 80%;
+	padding-left: 200px;
+}
+
+#firstArticle h1
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+#firstArticle p
+{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 270px 20px 270px;
+}
+
+#secondArticle img
+{
+	width: 30%;
+	padding-left: 230px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+
+
+#secondArticle h2
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+#secondArticle p
+{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 270px 20px 270px;
+}
+
+
+#thirdArticle img
+{
+	width: 18%;
+	padding-left: 770px;
+	padding-bottom: 30px;
+}
+
+
+#thirdArticle h3
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+#thirdArticle p
+{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 270px 20px 270px;
+}
